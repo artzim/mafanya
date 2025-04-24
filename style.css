@@ -1,0 +1,143 @@
+header {
+    background-color: #E6E6E6; 
+    padding: 10px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    font-size: 30px;
+}
+
+.navul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+}
+
+.navul li {
+    margin: 0 15px;  
+}
+
+.nava {
+    text-decoration: none; 
+    color: #333; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    background-color: #E6E6E6; 
+}
+
+footer {
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.navul li {
+    margin: 0 15px;  
+}
+
+
+.nava:hover {
+    background-color: #ddd;
+}
+
+footer {
+    background-color: #000;
+    color: #fff; 
+    padding: 10px;
+    text-align: center;
+}
+
+
+footer .nava {
+  color: #fff;
+  background-color: transparent;
+}
+
+footer .nava:hover {
+  background-color: rgba(255,255,255,0.2); 
+}
+
+footer {
+    background-color: #000; 
+    color: #fff; 
+    padding: 10px;
+    text-align: center;
+}
+
+
+footer nav {
+  display: flex;           
+  justify-content: center;  
+  align-items: center;       
+}
+
+
+footer .navul {
+  margin: 0;              
+  padding: 0;   
+  font-size: 30px;       
+}
+
+
+footer .nava {
+  color: #fff;
+  background-color: transparent;
+}
+
+footer .nava:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+main {
+  display: flex;            
+  flex-direction: row;     
+  justify-content: center; 
+  align-items: center;     
+  flex-wrap: wrap; 
+}
+
+.image-container {
+  width: auto; 
+  margin: 10px; 
+  text-align: center; 
+}
+
+.logoimg {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-container {
+  
+  max-width: 350px; 
+  margin: 90px;  
+ 
+  text-align: center;
+}
+
+.logoimg {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+ font-size: 30px;
+ color: rgb(235, 25, 25);
+}
+
+.image-container span {
+  margin-top: 10px;
+  font-size: 30px; 
+  display: block;
+}
+
+.mail1 {
+    border-top: rgb(0, 0, 0) 3px solid;
+    border-bottom: rgb(0, 0, 0) 3px solid;
+  }
+  
+  .telephone1 {
+    border-top: rgb(0, 0, 0) 3px solid;
+    border-bottom: rgb(0, 0, 0) 3px solid;
+  }
